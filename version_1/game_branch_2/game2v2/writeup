@@ -1,0 +1,43 @@
+idea: 
+
+clear main loop of code. 
+
+start going through old code and understand it. 
+
+if you can understand it (at least basically) continue on.
+
+whatever you cant, you should re-implement.  
+
+there were times where you wanted to do the code a certain way and couldn't do it that way. 
+You instead found some other way to do it that...you didn't like structurally speaking...but
+that worked. Improve it if you can. If you can't...at least by trying you'll learn about it. 
+
+
+grep -Ril "text-to-find-here" /
+
+
+grep -Ril "var printWords" ~/Desktop/java_script_video_game1/game2v2
+
+game0.html -> write_to_screenV2.js -> mainLoop.js and prints the stuff out 
+
+remove the "that"'s whenever possible. figure out when they are and are not needed. 
+
+need to figure out why I cant define ctx the way that I want to. 
+
+person_set_1
+
+
+grep -Ril "person_set_1" ~/Desktop/java_script_video_game1/game2v2
+
+goal: go through genObject and square_gen_object
+
+
+want to clean up all the code in this project. First go over code...then add the circle stuff (so that you can,
+in the future, do things like direct the path that you want the characters to take) and then proceed from there. 
+
+see if you can break up genObject and square_gen_obj files a bit. 
+
+tomorrow...go through gen_obj. make an instance...walk through how it works...and make whatever corrections
+make sense. 
+
+

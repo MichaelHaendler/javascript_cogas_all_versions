@@ -1,0 +1,19 @@
+
+
+//var img=document.getElementById("pics");
+	
+	
+/*
+var sx = 0; //The x coordinate where to start clipping	
+var sy = 0;//The y coordinate where to start clipping	
+var swidth = 97;//The width of the clipped image	
+var sheight = 97;//The height of the clipped image
+var x = 50;//The x coordinate where to place the image on the canvas
+var y = 50; //The y coordinate where to place the image on the canvas	
+//var width = 100; //The width of the image to use (stretch or reduce the image) (redundant) 
+//var height = 100; //The height of the image to use (stretch or reduce the image)(redundant)
+*/
+
+
+//ctx.drawImage(img,0,0,100,50,50,200,50,50);
+//ctx.drawImage(document.images[0],sx,sy,swidth,sheight,x,y,swidth,sheight);

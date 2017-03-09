@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+  <body>
+	<!--why did the image call ("<img src...") have to be within the canvas tag???-->
+	<!--http://png-1.findicons.com/files/icons/2118/nuvola/128/kcmdrkonqi.png-->
+	
+    <canvas id="myCanvas" width="1000" height="400">
+	<img id = "person_set_1" src="http://i.imgur.com/RMkU0tL.png">
+	<img id = "health_icon_1"src="http://i.imgur.com/7YpbDXC.png">
+	<img id = "gun_icon_1"src="http://i.imgur.com/27hpPEx.png?1">
+	<img id = "item_column"src="http://i.imgur.com/u82EY9f.png">
+	</canvas>	
+	
+	<script src = "globalVariables.js"> </script><!--comes before all other casses-->		
+	<script src = "write_to_screenV2.js"> </script>
+	
+	<script src = "Person.js"> </script>
+	<script src = "other.js"> </script>
+	
+	<script src = "genObject.js"></script>
+	<script src = "single_still_image.js"></script>
+	<script src = "square_gen_obj.js"></script>
+	
+	<script src = "gen_gun.js"></script>
+	
+	<script src = "menu_box.js"></script>
+	<script src = "menu_boxes.js"></script>
+	
+	<script src = "holdItems.js"></script>	
+	
+	<!-- adding all of the stuff to itemHolder here b/c it's before we get to mainloop (so everything is already
+	in there before we even get to it...this may or may not be important), but it's after we've defined all of our
+	classes-->
+	<script src = "globalItemArrayInit.js"></script>	
+	
+	<script src = "mainLoop.js"> </script> <!-- should probably be at the very bottom of the list --> 
+	
+
+	
+	<script>
+	
+		var ONE_FRAME_TIME = 130;
+		
+		setInterval( mainloop, ONE_FRAME_TIME );
+	
+    </script>
+	
+  </body>
+</html>
+
